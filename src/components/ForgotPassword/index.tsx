@@ -56,5 +56,6 @@ function ForgotPassword() {
 }
 
 export default ForgotPassword;
+declare module 'react-router-dom';
 
 
