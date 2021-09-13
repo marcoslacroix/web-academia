@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+:root {
+    --color-primary: #FF8400;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+.btn-confirmar {
+    margin-top: 10px;
+}
+
+.btn-redefinir {
+    margin-left: 60px;
+}
+
+.btn-voltar {
+    margin-left: 110px;
+    margin-top: 10px;
+    color: rgba(0,0,0,0.6);
+}
+
+.error {
+    color: red;
+}
+.card-layout {
+    width: 352px;
+    -webkit-box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    padding: 24px;
+    border-radius: 8px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 100px
+}
